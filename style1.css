@@ -1,0 +1,94 @@
+html,body{
+width: 100%;
+
+
+}
+body{
+  height: 100vh;
+  background-image: url(https://images.wallpaperscraft.com/image/tree_horizon_minimalism_128903_1280x720.jpg);
+  color:orangered;
+  font-family:'varela round';
+
+}
+P{
+  COLOR:#C3073F;
+  BACKGROUND:#1A1A1D;
+  WIDTH:40%;
+  BORDER-RADIUS:5PX;
+  font-size: 25PX;
+   box-shadow: 1px 1px 10px 1px ORANGEred;
+}
+button{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  font-family:'varela round';
+
+}
+button{
+  background: #1A1A1D;
+  color: ORANGERED;
+  width: 240px;
+  height: 80px;
+  border: 1px solid red;
+  font-size: 18px;
+  border-radius: 4px;
+  transition: .5s;
+  overflow: hidden;
+ box-shadow: 1px 1px 10px 1px ORANGERED;
+}
+ button:focus{
+   outline: none;
+
+ }
+ button:before{
+   content: '';
+   display: block;
+   position: absolute;
+
+   width: 60px;
+   height: 100%;
+   left: 0;
+   top: 0;
+   opacity: .5s;
+   filter: blur(30px);
+   transition: translate(-130px) skewX(-15deg);
+
+ }
+ button:after{
+   color:black;
+   content: 'g';
+   display: block;
+   position: absolute;
+   background: #FF7F50;
+   width: 30px;
+   height: 100%;
+   left: 30px;
+   top: 0;
+   opacity: 0;
+   filter: blur(10px);
+   transform: translate(-100px) scaleX(-15deg);
+ }
+ button:hover{
+   background:  ORANGERED;
+   cursor: pointer;
+      color:black;
+ }
+ button:hover:before{
+   transform: translate(300px) skewX(-15deg);
+   opacity: .6;
+   transition: .7s;
+ }
+ button:hover:after{
+   transform: translate(300px) skewX(-15deg);
+   opacity: 1;
+   transition: .7s;
+   color:black;
+ }
+a{
+  color:orangered;
+}
+a:hover{
+  color:black;s
+}
