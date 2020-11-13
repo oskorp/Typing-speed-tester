@@ -1,2 +1,8 @@
 # Typing-speed-tester
-This is my first webapplication which are simple typing speed tester using HTML 5,CSS 3 and javascript
+Simple typing tester Developed using Basic Web technologies. 
+Contribute to [oskorp/Typing-speed-tester](https://github.com/oskorp/Typing-speed-tester) development by creating an account on GitHub.
+# Web Technologies used 
+1)HTML 5 </br>
+2)CSS 3 </br>
+3)Javascript 
+
